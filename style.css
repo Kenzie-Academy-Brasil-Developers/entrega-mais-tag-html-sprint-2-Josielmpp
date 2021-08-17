@@ -1,0 +1,56 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin:0px;
+    padding:0px;
+  
+    
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  header{
+    display: flex;
+    justify-content: center;
+  }
+  header .container-top{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 980px;
+    height: 500px;
+    align-items: center;
+   
+    background-image: url('https://cdn.glitch.com/8146c7df-9b54-4626-9fb7-601790b36449%2F18556527_1213718098756639_138554103565702174_o.jpg?v=1628993409271');
+  
+  }
+  header .container-top nav ul{
+    display: flex;
+    list-style: none;
+    color: white;
+  }
+  header .container-top nav li{
+    display: flex;
+    list-style: none;
+    color: white;
+    margin: 10px;
+  }
+  header .container-top h1{
+    display:flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    padding: 20px 20px;
+  }
+  header .container-top p{
+    display:flex;
+    justify-content: center;
+    color:white;
+    font-size: 40px
+  }
+  
